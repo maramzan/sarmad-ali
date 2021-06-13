@@ -121,7 +121,7 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuIcons.map((lsItem, key) => (
-          <ListItem button key={key}>
+          <ListItem Button key={key}>
             <ListItemIcon className={classes.listItem}>
               {lsItem.listIcon}
             </ListItemIcon>
